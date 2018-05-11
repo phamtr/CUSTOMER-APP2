@@ -9,6 +9,9 @@
 <button routerLink="/orders">Orders</button>
 <button routerLink="/products">Products</button>
 </div>
+<div *ngIf="location.path() === 'products'">
+ 
+</div>
 </div>
 <router-outlet></router-outlet>
 

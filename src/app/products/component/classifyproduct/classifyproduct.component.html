@@ -1,5 +1,5 @@
 <div class="classify-list" style="margin: auto; width: 25%; border: 3px splid green; padding: 10px;">
-    <select [(ngModule)]="classSelected">
+    <select>
       <option *ngFor="let classify of classifys" [value]="classify.id">
         {{ classify.name }}
       </option>

@@ -1,0 +1,8 @@
+<div class="filter-list">
+  <div *ngFor="let filter of availableFilters">
+    <div
+         [ngClass]="{ 'filter-activated': filterActive(filter)}"
+         (click)="changeFilterStatus(filter)"
+    >{{ filter.classify }}</div>
+  </div>
+</div>

@@ -4,7 +4,7 @@ export interface Product{
     description?: string,
     price?: number,
     currencies?: [{ type: string}],
-    colors?: [{ type: string}],
+    classifys?: [{ type: string}],
     productImage?: [{ type: string}],
     show?: boolean,
     inStock?: [{
